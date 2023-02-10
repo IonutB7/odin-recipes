@@ -1,29 +1,46 @@
+
+@font-face {
+    font-family: "Masmuseh" ;
+    src: url(../fonts/Masmuseh-Demo-Version.ttf);
+}
 * {
     margin: 0;
 }
 .image{
 
-    width: 40%;
+    width: 35%;
     
 }
 img {
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 body {
-    background-color: red;
     margin: 0;
+    overflow: hidden;
 }
 
 .group{
     display: inline-flex;
     padding: 0;
     margin: 0;
-    height: 100vh;
+    height: max-content;
     width: 100vw;
 }
 .text {
-    width: 60%;
+    width: 65%;
     background-color: beige;
-    font-size: small;
+    font-size: 3.15vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    font-family: Masmuseh;
+}
+h1, h4, p, ul, ol {
+    padding-top: 1vh;
+}
+h1 {
+    text-align: center;
+}
+.lists {
+    display: inline-flex;
 }
